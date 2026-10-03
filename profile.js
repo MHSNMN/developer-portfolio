@@ -1,7 +1,7 @@
 // Add public contact links before publishing.
 const PROFILE = {
-  name: "Mohsen",
-  email: "YOUR_EMAIL",
-  github: "YOUR_GITHUB_URL",
+  name: "Mohsen Mohammed Ali",
+  email: "mhsnmn09@gmail.com",
+  github: "https://github.com/MHSNMN",
   linkedin: "",
 };

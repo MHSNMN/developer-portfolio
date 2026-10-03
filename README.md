@@ -8,9 +8,9 @@ Update the public contact values in `profile.js`:
 
 ```js
 const PROFILE = {
-  name: "Mohsen",
-  email: "you@example.com",
-  github: "https://github.com/your-username",
+  name: "Mohsen Mohammed Ali",
+  email: "mhsnmn09@gmail.com",
+  github: "https://github.com/MHSNMN",
   linkedin: "https://www.linkedin.com/in/your-profile",
 };
 ```
