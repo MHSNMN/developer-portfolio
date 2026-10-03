@@ -1,19 +1,12 @@
 # Developer Portfolio
 
-Personal portfolio for a junior full-stack developer based in Iraq.
+Personal portfolio for Mohsen Mohammed Ali, a junior full-stack developer based in Iraq.
 
-## Before publishing
+## Live site
 
-Update the public contact values in `profile.js`:
+[mhsnmn.github.io/developer-portfolio](https://mhsnmn.github.io/developer-portfolio/)
 
-```js
-const PROFILE = {
-  name: "Mohsen Mohammed Ali",
-  email: "mhsnmn09@gmail.com",
-  github: "https://github.com/MHSNMN",
-  linkedin: "https://www.linkedin.com/in/your-profile",
-};
-```
+The portfolio highlights [Ansat](https://ansatradio.org/), current projects, technical skills, and verified contact links.
 
 ## Local preview
 
