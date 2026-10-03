@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Junior full-stack developer building operational platforms, data applications, and local AI systems."
+    />
+    <meta name="theme-color" content="#0b1016" />
+    <meta property="og:title" content="Full-Stack Developer Portfolio" />
+    <meta
+      property="og:description"
+      content="Production-minded web development with React, TypeScript, Node.js, Firebase, and PostgreSQL."
+    />
+    <meta property="og:type" content="website" />
+    <title>Full-Stack Developer Portfolio</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="page-grid" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="identity" href="#top" aria-label="Home">
+        <span class="identity-mark">M</span>
+        <span data-profile-name>YOUR NAME</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span>Open to remote junior roles</p>
+          <h1>I build software that people <em>actually use.</em></h1>
+          <p class="hero-intro">
+            Junior full-stack developer based in Iraq. I turn operational problems into reliable web platforms using React, TypeScript, Node.js, and modern cloud services.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#work">View selected work</a>
+            <a class="button button-secondary" data-email-link href="mailto:YOUR_EMAIL">Email me</a>
+          </div>
+        </div>
+
+        <aside class="signal-panel" aria-label="Developer summary">
+          <div class="terminal-bar">
+            <span></span><span></span><span></span>
+            <p>profile.ts</p>
+          </div>
+          <pre><code><span class="syntax-muted">const</span> developer = {
+  focus: <span class="syntax-value">"full-stack systems"</span>,
+  location: <span class="syntax-value">"Iraq · UTC+3"</span>,
+  experience: <span class="syntax-value">"live products"</span>,
+  principles: [
+    <span class="syntax-value">"clear code"</span>,
+    <span class="syntax-value">"tested changes"</span>,
+    <span class="syntax-value">"honest communication"</span>
+  ]
+};</code></pre>
+          <div class="build-line"><span>✓</span> 171 automated tests passing</div>
+        </aside>
+      </section>
+
+      <section class="proof-strip" aria-label="Portfolio facts">
+        <div><strong>75+</strong><span>activated accounts</span></div>
+        <div><strong>171</strong><span>automated tests</span></div>
+        <div><strong>3</strong><span>substantial systems</span></div>
+        <div><strong>0</strong><span>known npm vulnerabilities</span></div>
+      </section>
+
+      <section class="section" id="work">
+        <div class="section-heading">
+          <p class="section-number">01 / SELECTED WORK</p>
+          <h2>Systems built around real workflows.</h2>
+        </div>
+
+        <article class="project project-featured">
+          <div class="project-content">
+            <div class="project-topline">
+              <span class="project-state live">Live</span>
+              <span>Volunteer initiative · Lead developer</span>
+            </div>
+            <h3>Ansat Platform</h3>
+            <p class="project-lead">
+              Arabic-first operations and audio-production platform for a distributed cultural volunteer team.
+            </p>
+            <p>
+              I designed and built the platform that connects public content, member identity, audio production, task operations, rewards, certificates, and administration in one system.
+            </p>
+            <ul class="project-results">
+              <li>75+ activated member accounts and 30 volunteer applications</li>
+              <li>Server-enforced roles, granular permissions, and audit trails</li>
+              <li>Audio workflow from raw recording through QA, mastering, and publishing</li>
+              <li>171 passing tests, clean typecheck, lint, build, and dependency audit</li>
+            </ul>
+            <div class="stack" aria-label="Technology stack">
+              <span>React</span><span>TypeScript</span><span>Node.js</span><span>Firebase</span><span>PostgreSQL</span><span>Google Drive API</span>
+            </div>
+            <div class="project-links">
+              <a href="https://ansatradio.org/" target="_blank" rel="noreferrer">Visit live platform <span aria-hidden="true">↗</span></a>
+              <a data-github-link href="#">View GitHub profile <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+
+          <div class="workflow" aria-label="Ansat audio workflow">
+            <div class="workflow-header"><span>Audio production pipeline</span><span>06 stages</span></div>
+            <ol>
+              <li><span>01</span><div><strong>Recording</strong><small>Narrator uploads raw audio</small></div><b class="complete">Done</b></li>
+              <li><span>02</span><div><strong>Raw QA</strong><small>Quality and language review</small></div><b class="complete">Done</b></li>
+              <li><span>03</span><div><strong>Mastering</strong><small>Audio engineering pass</small></div><b class="active">Active</b></li>
+              <li><span>04</span><div><strong>Final QA</strong><small>Publication readiness</small></div><b>Queued</b></li>
+              <li><span>05</span><div><strong>Approval</strong><small>Authorized final decision</small></div><b>Queued</b></li>
+              <li><span>06</span><div><strong>Published</strong><small>Public audio library</small></div><b>Queued</b></li>
+            </ol>
+          </div>
+        </article>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-topline"><span class="project-state building">In development</span></div>
+            <p class="project-index">PROJECT / 02</p>
+            <h3>AtmosScope</h3>
+            <p>
+              Environmental and geospatial application combining external datasets, interactive maps, caching, and grid-based validation.
+            </p>
+            <div class="stack"><span>React</span><span>MapLibre</span><span>NASA Data</span><span>OpenAQ</span></div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-topline"><span class="project-state local">Local system</span></div>
+            <p class="project-index">PROJECT / 03</p>
+            <h3>RoomWatch</h3>
+            <p>
+              Local Windows monitoring system with event processing, computer vision, encrypted storage, and local-network services.
+            </p>
+            <div class="stack"><span>Python</span><span>FastAPI</span><span>OpenCV</span><span>ONNX</span><span>SQLite</span></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section about" id="about">
+        <div class="section-heading">
+          <p class="section-number">02 / ABOUT</p>
+          <h2>Production-minded. Still learning. Already shipping.</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-copy">
+            <p>
+              I build full-stack products around authentication, permissions, data, media, and internal workflows. My main experience comes from leading the technical work behind Ansat, a volunteer cultural initiative with a real operating team.
+            </p>
+            <p>
+              I use AI coding tools to move faster, then verify changes through code review, tests, logs, and manual checks. I am looking for a junior role with clear tasks, thoughtful feedback, and room to grow.
+            </p>
+          </div>
+          <div class="capabilities">
+            <div><span>Frontend</span><p>React, TypeScript, JavaScript, HTML, CSS, responsive UI</p></div>
+            <div><span>Backend</span><p>Node.js, Express, Python, FastAPI, REST APIs</p></div>
+            <div><span>Data & cloud</span><p>PostgreSQL, Supabase, Firebase, Firestore, SQLite</p></div>
+            <div><span>Engineering</span><p>Git, GitHub, testing, debugging, authentication, RBAC</p></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <p class="section-number">03 / CONTACT</p>
+        <h2>Need a junior developer who has already shipped something real?</h2>
+        <p>Open to remote junior roles, paid internships, and focused project work.</p>
+        <div class="contact-actions">
+          <a class="button button-primary" data-email-link href="mailto:YOUR_EMAIL">Start a conversation</a>
+          <a class="text-link" data-github-link href="#">GitHub <span aria-hidden="true">↗</span></a>
+          <a class="text-link" data-linkedin-link href="#">LinkedIn <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Built with semantic HTML, modern CSS, and a small amount of JavaScript.</p>
+      <p>© <span id="year"></span> <span data-profile-name>YOUR NAME</span></p>
+    </footer>
+
+    <script src="profile.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
