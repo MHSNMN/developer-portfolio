@@ -30,5 +30,5 @@ document.querySelectorAll("[data-linkedin-link]").forEach((element) => {
   }
 });
 
-document.title = `${PROFILE.name} — Full-Stack Developer`;
+document.title = `${PROFILE.name} — Junior Full-Stack Developer`;
 document.querySelector("#year").textContent = new Date().getFullYear();
