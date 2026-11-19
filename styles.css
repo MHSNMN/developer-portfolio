@@ -86,6 +86,7 @@ a:focus-visible { outline: 3px solid var(--blue); outline-offset: 5px; border-ra
 .evidence-grid span { font: 600 10px "IBM Plex Mono",monospace; color: #697a97; letter-spacing: .09em; display: block; margin-bottom: 6px; }
 .evidence-grid strong { display: block; font: 600 15px "Space Grotesk",sans-serif; }
 
+.work { position: relative; }
 .section { padding-block: clamp(88px, 10vw, 136px); }
 .section-heading { display: grid; grid-template-columns: 1.3fr .7fr; gap: 90px; align-items: end; margin-bottom: 50px; }
 .eyebrow { display: flex; align-items: center; gap: 15px; color: var(--blue); font: 600 11px "IBM Plex Mono",monospace; letter-spacing: .12em; margin: 0 0 24px; }
