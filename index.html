@@ -1,130 +1,108 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta name="color-scheme" content="light" />
-<meta name="theme-color" content="#f4f6fb" />
-<meta name="description" content="Mohsen Mohammed Ali — junior frontend developer based in Iraq. Explore real work using React, TypeScript, Firebase and Node.js, including the live Ansat volunteer platform." />
-<meta property="og:type" content="website" />
-<meta property="og:title" content="Mohsen Mohammed Ali — Frontend Developer" />
-<meta property="og:description" content="Real web applications. Inspectable source code. Thoughtful frontend work." />
-<meta property="og:url" content="https://mhsnmn.github.io/developer-portfolio/" />
-<title>Mohsen Mohammed Ali — Frontend Developer</title>
-<link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="styles.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fbfcfd">
+  <meta name="description" content="Mohsen Mohammed Ali is a junior frontend developer based in Iraq. Selected work: the Ansat volunteer platform, built with React, TypeScript and Firebase.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Mohsen Mohammed Ali — Frontend Developer">
+  <meta property="og:description" content="A developer portfolio focused on real work, clear engineering evidence, and thoughtful interfaces.">
+  <meta property="og:url" content="https://mhsnmn.github.io/developer-portfolio/">
+  <title>Mohsen Mohammed Ali — Frontend Developer</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+:root{--paper:#fbfcfd;--ink:#171f25;--sub:#56636e;--line:#d9e0e4;--faint:#edf1f3;--blue:#225fa7;--dark:#192b36;--max:1192px}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:90px}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:'DM Sans',Arial,sans-serif;-webkit-font-smoothing:antialiased;line-height:1.6}
+h1,h2,h3,p{margin-top:0}a{color:inherit}
+a:focus-visible{outline:3px solid var(--blue);outline-offset:4px;border-radius:2px}.shell{width:min(calc(100% - 88px),var(--max));margin-inline:auto}.skip{position:fixed;z-index:99;left:18px;top:-70px;padding:10px 15px;background:#fff;color:#111}.skip:focus{top:12px}
+.header{border-bottom:1px solid var(--line);background:var(--paper)}.header-inner{height:83px;display:flex;align-items:center;justify-content:space-between;gap:24px}.wordmark{display:flex;align-items:center;gap:12px;text-decoration:none;font-size:15px;font-weight:700;letter-spacing:-.035em;white-space:nowrap}.wordmark-symbol{background:var(--ink);color:#fff;display:grid;place-items:center;width:37px;height:37px;font-weight:700;font-size:19px;line-height:1}.wordmark-symbol span{color:#7cc0ed}.nav{display:flex;align-items:center;gap:31px}.nav a,.github-link{font-size:13px;font-weight:600;text-decoration:none}.nav a{color:var(--sub)}.nav a:hover,.github-link:hover{color:var(--blue)}.github-link span{margin-left:6px}
+.intro{padding-top:74px}.intro-topline{display:flex;justify-content:space-between;gap:20px;padding-bottom:24px;border-bottom:1px solid var(--line);font:500 11px 'IBM Plex Mono',monospace;letter-spacing:.065em}.location{color:var(--sub)}.tiny-divider{margin:0 7px;color:#acb5bc}.intro-main{display:grid;grid-template-columns:minmax(0,1fr) 240px;gap:clamp(50px,10vw,140px);align-items:end;padding:86px 0 110px}.intro h1{font-weight:600;font-size:clamp(3.8rem,6.8vw,6.5rem);letter-spacing:-.075em;line-height:1.055;max-width:880px;margin-bottom:30px}.intro h1 span{color:#7a8893}.intro-lead{color:#40505c;font-size:clamp(16px,1.65vw,19px);max-width:650px;line-height:1.8}.intro-actions{display:flex;align-items:center;gap:31px;margin-top:37px}.action-primary{display:inline-flex;align-items:center;justify-content:space-between;gap:33px;min-height:52px;padding:0 21px;background:var(--ink);color:white;font-size:13px;text-decoration:none;font-weight:700;transition:background .2s ease}.action-primary:hover{background:#334e62}.action-text{font-size:13px;font-weight:700;text-decoration:none;border-bottom:1px solid var(--ink);padding-block:4px}.action-text:hover{color:var(--blue)}.intro-aside{border-top:2px solid var(--ink);padding-top:21px;align-self:end}.availability-dot{display:inline-block;background:#2a9a77;width:8px;height:8px;border-radius:50%}.availability-title{font-size:15px;font-weight:700;margin:13px 0 7px}.intro-aside p:not(.availability-title){color:var(--sub);font-size:13px;line-height:1.75;margin-bottom:18px}.intro-aside a{font-size:12px;font-weight:700;text-decoration:none;border-bottom:1px solid #7d949e;padding-bottom:4px}.intro-bottomline{border-top:1px solid var(--line);padding:19px 0 20px;display:flex;justify-content:space-between;gap:20px;color:#657480;font:500 10px 'IBM Plex Mono',monospace;letter-spacing:.05em}
+.work-section{background:#f0f4f6;padding:110px 0 120px}.section-heading{display:grid;grid-template-columns:1fr 320px;align-items:end;gap:60px;margin-bottom:49px}.eyebrow{font:600 11px 'IBM Plex Mono',monospace;letter-spacing:.08em;color:var(--blue);margin-bottom:19px}.section-heading h2,.about-heading h2{font-size:clamp(2.5rem,4.3vw,4.45rem);line-height:1.12;font-weight:600;letter-spacing:-.065em;margin:0}.section-heading>p{font-size:15px;color:var(--sub);line-height:1.85;margin:0 0 5px}
+.project{background:white;border:1px solid #cad6dc}.project-top{min-height:61px;display:flex;align-items:center;justify-content:space-between;gap:20px;padding:0 36px;border-bottom:1px solid var(--line);color:#546772;font:500 10px 'IBM Plex Mono',monospace;letter-spacing:.055em}.project-separator{padding-inline:5px}.project-grid{display:grid;grid-template-columns:1.08fr .92fr}.project-summary{padding:60px 59px 63px 55px;border-right:1px solid var(--line)}.project-type{font:500 11px 'IBM Plex Mono',monospace;color:var(--blue);margin-bottom:25px}.project-summary h3{font-weight:600;font-size:clamp(4rem,6vw,6rem);letter-spacing:-.08em;line-height:1;margin-bottom:24px}.project-dot{color:var(--blue)}.project-statement{font-size:clamp(21px,2.1vw,26px);font-weight:600;line-height:1.4;letter-spacing:-.035em;max-width:435px;margin-bottom:25px}.project-description{font-size:14px;line-height:1.88;max-width:510px;color:var(--sub)}.project-actions{display:flex;align-items:center;flex-wrap:wrap;gap:25px;margin-top:36px}.project-visit{background:var(--ink);padding:13px 17px;color:white;text-decoration:none;font-weight:700;font-size:12px}.project-visit:hover{background:#385064}.project-actions>a:not(.project-visit){font-size:12px;font-weight:700;text-decoration:underline;text-underline-offset:5px}.project-detail{padding:39px 39px 32px;background:#fafcfd}.detail-row{padding:22px 0;border-bottom:1px solid #dbe3e7}.detail-row:first-child{padding-top:0}.detail-row:last-child{border-bottom:0}.detail-row>span{font:600 10px 'IBM Plex Mono',monospace;color:#6a7f8b;letter-spacing:.055em}.detail-row p{font-size:14px;line-height:1.8;margin:11px 0 0;color:#374b57}.detail-row a{color:var(--blue);font-weight:600;text-underline-offset:3px}.project-foot{padding:22px 35px;border-top:1px solid var(--line);display:flex;gap:25px;flex-wrap:wrap;color:#566976;font:500 10px 'IBM Plex Mono',monospace;letter-spacing:.045em}.secondary-work{margin-top:28px;padding:27px 0;border-top:1px solid #c9d5db;display:flex;justify-content:space-between;align-items:center;gap:30px}.secondary-label{font:500 10px 'IBM Plex Mono',monospace;letter-spacing:.05em;color:var(--blue)}.secondary-work h3{font-size:23px;letter-spacing:-.04em;margin:8px 0 3px}.secondary-work p{margin:0;font-size:13px;color:var(--sub)}.secondary-work a{font-size:12px;font-weight:700;white-space:nowrap;text-decoration:underline;text-underline-offset:5px}
+.about-section{display:grid;grid-template-columns:.85fr 1.15fr;gap:clamp(55px,9vw,135px);padding-block:125px 150px}.about-heading{position:sticky;top:40px;align-self:start}.about-body>p{max-width:670px;font-size:17px;line-height:1.95;color:#43535f}.expertise{margin-top:46px;border-top:1px solid var(--line)}.expertise>div{display:grid;grid-template-columns:190px 1fr;gap:25px;border-bottom:1px solid var(--line);padding:19px 0}.expertise span{font:500 10px 'IBM Plex Mono',monospace;color:#647783;letter-spacing:.06em}.expertise p{font-size:14px;font-weight:600;margin:0;color:#243540}
+.contact-section{background:var(--dark);color:white;padding:90px 0 100px}.contact-inner{display:grid;grid-template-columns:1fr 340px;align-items:end;gap:70px}.contact-section .eyebrow{color:#9ec9df}.contact-section h2{font-size:clamp(3.2rem,5.3vw,5.7rem);font-weight:600;letter-spacing:-.073em;line-height:1.07;margin:0 0 28px}.contact-section h2 span{color:#9db9cd}.contact-section p:not(.eyebrow){font-size:15px;color:#b8c9d4;line-height:1.85;max-width:600px;margin:0}.contact-links{display:flex;flex-direction:column;gap:17px}.contact-links a{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:15px 0;border-bottom:1px solid #465763;text-decoration:none;font-size:14px;font-weight:600}.contact-links a:hover{color:#a1d3ff}.contact-links .email-link{font-size:17px}
+.footer{padding:26px 0;display:flex;align-items:center;justify-content:space-between;gap:15px;color:#64737e;font:500 11px 'IBM Plex Mono',monospace}.footer a{text-decoration:none;color:var(--ink)}.footer a:hover{text-decoration:underline}
+@media(max-width:1000px){.intro-main{grid-template-columns:1fr 210px;gap:35px}.intro h1{font-size:clamp(3.8rem,7.2vw,5.7rem)}.project-grid{grid-template-columns:1fr}.project-summary{border-right:0;border-bottom:1px solid var(--line)}.section-heading{grid-template-columns:1fr 260px}.about-section{gap:45px}.contact-inner{grid-template-columns:1fr 300px}}
+@media(max-width:740px){.shell{width:calc(100% - 40px)}.header-inner{height:72px}.intro{padding-top:46px}.intro-main{grid-template-columns:1fr;gap:48px;padding:66px 0 72px}.intro h1{font-size:clamp(3.4rem,10vw,5rem)}.intro-aside{max-width:330px}.section-heading{grid-template-columns:1fr;gap:20px}.section-heading>p{max-width:450px}.work-section{padding-block:75px}.about-section{grid-template-columns:1fr;padding-block:80px;gap:38px}.about-heading{position:static}.contact-inner{grid-template-columns:1fr;gap:35px}.contact-section{padding-block:75px}.contact-links{max-width:470px}}
+@media(max-width:520px){.shell{width:calc(100% - 32px)}.wordmark{font-size:14px}.wordmark-symbol{width:32px;height:32px}.nav{gap:13px}.nav a{font-size:12px}.github-link{display:none}.intro-topline,.intro-bottomline{font-size:9px}.location{white-space:nowrap}.intro h1{font-size:clamp(3rem,12vw,4.7rem)}.intro-lead{font-size:16px}.intro-actions{gap:23px}.project-top{padding-inline:19px;font-size:9px}.project-summary{padding:34px 25px 43px}.project-summary h3{font-size:4rem}.project-detail{padding:25px}.project-foot{gap:12px;padding:18px 23px}.secondary-work{align-items:flex-start;flex-direction:column;gap:12px}.expertise>div{grid-template-columns:1fr;gap:7px}.contact-section h2{font-size:clamp(3.1rem,11vw,4.2rem)}.contact-links .email-link{font-size:15px}.footer{flex-wrap:wrap;line-height:2}.footer span:nth-child(2){display:none}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition-duration:0s!important;animation-duration:0s!important}}
+
+</style>
 </head>
 <body>
-<a class="skip-link" href="#main">Skip to content</a>
-<header class="site-header" id="top">
-  <div class="wrap header-inner">
-    <a class="brand" href="#top" aria-label="Mohsen Mohammed Ali — back to top"><span class="brand-mark">M<span>.</span></span><span data-profile-name>Mohsen Mohammed Ali</span></a>
-    <nav aria-label="Main navigation"><a href="#work">Work</a><a href="#approach">Expertise</a><a href="#about">About</a></nav>
-    <a class="header-cta" data-email-link href="mailto:mhsnmn09@gmail.com">Contact <span aria-hidden="true">↗</span></a>
-  </div>
-</header>
-
-<main id="main">
-<section class="hero wrap" aria-labelledby="hero-title">
-  <div class="hero-content">
-    <div class="availability"><span class="status-dot" aria-hidden="true"></span> OPEN TO FULL-TIME REMOTE ROLES <span class="divider-slash">/</span> IRAQ UTC+3</div>
-    <p class="overline">HELLO, I'M MOHSEN MOHAMMED ALI</p>
-    <h1 id="hero-title">I turn real workflows into <em>useful interfaces.</em></h1>
-    <p class="hero-lead">Junior frontend developer building with <strong>React, TypeScript, JavaScript and Firebase.</strong> My primary work is a deployed platform for an Arabic volunteer initiative — with public code and verifiable engineering evidence.</p>
-    <div class="actions"><a class="button primary" href="#work">Explore selected work <span aria-hidden="true">↗</span></a><a class="button secondary" data-email-link href="mailto:mhsnmn09@gmail.com">Get in touch ↗</a></div>
-    <p class="availability-detail">Available for full-time remote work with a mutually agreed schedule.</p>
-  </div>
-  <aside class="hero-visual" aria-label="Ansat application architecture summary">
-    <div class="blueprint-head"><span><i aria-hidden="true"></i> PROJECT SNAPSHOT</span><span>ANSAT / 2026</span></div>
-    <div class="blueprint-body">
-      <p class="visual-label">APPLICATION STRUCTURE</p>
-      <div class="frontend-stack"><span>React 19</span><span>TypeScript</span><span>Vite</span></div>
-      <div class="connection" aria-hidden="true"></div>
-      <div class="system-list">
-        <div><b>01</b><span><strong>Public website &amp; CMS</strong><small>Content and applications</small></span></div>
-        <div><b>02</b><span><strong>Member workspace</strong><small>Identity and permissions</small></span></div>
-        <div><b>03</b><span><strong>Audio operations</strong><small>Production and review</small></span></div>
-      </div>
-      <div class="connection" aria-hidden="true"></div>
-      <div class="backend-stack"><span>Node / Express API</span><span>Firebase</span><span>Supabase</span></div>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="header" id="top">
+    <div class="shell header-inner">
+      <a class="wordmark" href="#top" aria-label="Mohsen Mohammed Ali, back to top"><span class="wordmark-symbol" aria-hidden="true">m<span>/</span></span><span>Mohsen Ali</span></a>
+      <nav class="nav" aria-label="Primary navigation"><a href="#work">Work</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+      <a class="github-link" data-github-link href="https://github.com/MHSNMN" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
     </div>
-    <div class="blueprint-footer"><small>Illustrative module map, not a live dashboard</small><a href="https://github.com/MHSNMN/ansat-platform" target="_blank" rel="noopener noreferrer">Source ↗</a></div>
-  </aside>
-</section>
+  </header>
 
-<div class="evidence-bar"><div class="wrap evidence-grid">
-  <div><span>MAIN STACK</span><strong>React / TypeScript / Firebase</strong></div>
-  <div><span>DEPLOYED WORK</span><strong>Ansat volunteer platform</strong></div>
-  <div><span>ENGINEERING EVIDENCE</span><strong>Open source + dated checks</strong></div>
-</div></div>
-
-<section class="section work wrap" id="work" aria-labelledby="work-title">
-  <div class="section-heading"><div><p class="eyebrow">SELECTED WORK</p><h2 id="work-title">Built for people.<br><em>Not just for a demo.</em></h2></div><p>One substantial project with real workflows and inspectable code — rather than a long list of unverified demos.</p></div>
-  <article class="case-study">
-    <div class="case-top"><span class="live-label"><span class="status-dot" aria-hidden="true"></span> LIVE PROJECT</span><span>VOLUNTEER INITIATIVE / 2026–PRESENT</span></div>
-    <div class="case-grid">
-      <div class="case-content">
-        <p class="case-overline">FEATURED CASE STUDY</p>
-        <h3>Ansat Platform<span>.</span></h3>
-        <p class="case-lead">A connected digital workspace for a cultural volunteer team.</p>
-        <p class="case-body">I founded Ansat and developed its platform with substantial AI assistance. It brings publishing, volunteer applications, authentication, audio production, internal tasks, and certificates into a shared system.</p>
-        <div class="feature-list">
-          <div><span>01</span><p>Authentication, member roles, and permissions</p></div>
-          <div><span>02</span><p>Content management and volunteer applications</p></div>
-          <div><span>03</span><p>Audio workflows, task tracking, and certificates</p></div>
+  <main id="main">
+    <section class="intro shell" aria-labelledby="intro-title">
+      <div class="intro-topline"><span>FRONTEND DEVELOPMENT</span><span class="location">BASRA, IRAQ <span class="tiny-divider">/</span> UTC+3</span></div>
+      <div class="intro-main">
+        <div>
+          <h1 id="intro-title">Hi, I'm Mohsen.<br><span>I build useful things for real teams.</span></h1>
+          <p class="intro-lead">I'm a junior frontend developer working with React, TypeScript and Firebase. My main project is a platform for Ansat, a volunteer initiative I founded.</p>
+          <div class="intro-actions"><a class="action-primary" href="#work">Explore my work <span aria-hidden="true">↘</span></a><a class="action-text" data-email-link href="mailto:mhsnmn09@gmail.com">Email me <span aria-hidden="true">↗</span></a></div>
         </div>
-        <div class="case-actions"><a class="button case-primary" href="https://ansatradio.org/" target="_blank" rel="noopener noreferrer">Visit live platform ↗</a><a href="https://github.com/MHSNMN/ansat-platform" target="_blank" rel="noopener noreferrer">View source ↗</a></div>
+        <aside class="intro-aside" aria-label="Work availability"><span class="availability-dot" aria-hidden="true"></span><p class="availability-title">Open to remote frontend roles</p><p>Available for full-time work with a mutually agreed schedule.</p><a href="#contact">Let's connect <span aria-hidden="true">↗</span></a></aside>
       </div>
-      <div class="product-map" aria-label="Conceptual diagram of Ansat features">
-        <div class="map-head"><span>PLATFORM CAPABILITIES</span><span>OPERATIONS / PUBLIC</span></div>
-        <div class="map-module big"><div class="logo-glyph" aria-hidden="true">A<span>/</span></div><div><small>PUBLIC EXPERIENCE</small><strong>Arabic-first website</strong><p>Publishing, activities, audio and application forms</p></div></div>
-        <div class="map-pair">
-          <div class="map-module"><span class="module-glyph" aria-hidden="true">↳</span><small>MEMBERS</small><strong>Access &amp; roles</strong><p>Shared accounts and permissions</p></div>
-          <div class="map-module"><span class="module-glyph" aria-hidden="true">◎</span><small>OPERATIONS</small><strong>Audio &amp; tasks</strong><p>Review, assignments and publishing</p></div>
-        </div>
-        <div class="map-tags"><span>REACT</span><span>TYPESCRIPT</span><span>FIREBASE</span><span>NODE.JS</span></div>
-        <p class="map-disclaimer">Conceptual system map based on the repository, not a screenshot.</p>
+      <div class="intro-bottomline"><span>01 / SELECTED WORK</span><span>SCROLL TO EXPLORE ↓</span></div>
+    </section>
+
+    <section class="work-section" id="work" aria-labelledby="work-title">
+      <div class="shell">
+        <div class="section-heading"><div><p class="eyebrow">SELECTED WORK</p><h2 id="work-title">Work I can show,<br>not just talk about.</h2></div><p>A focused look at a real platform, the problems it addresses, and the code behind it.</p></div>
+        <article class="project" aria-labelledby="ansat-title">
+          <div class="project-top"><span>FEATURED PROJECT</span><span>2026 — PRESENT <span class="project-separator">·</span> VOLUNTEER</span></div>
+          <div class="project-grid">
+            <div class="project-summary">
+              <p class="project-type">Web application / operations</p>
+              <h3 id="ansat-title">Ansat<span class="project-dot">.</span></h3>
+              <p class="project-statement">One workspace for a team making audio knowledge accessible.</p>
+              <p class="project-description">Ansat brings volunteer applications, member access, publishing, audio review, task management and certificates into a connected platform. I founded the initiative and developed the software with substantial AI assistance.</p>
+              <div class="project-actions"><a class="project-visit" href="https://ansatradio.org/" target="_blank" rel="noopener noreferrer">Visit the live website <span aria-hidden="true">↗</span></a><a href="https://github.com/MHSNMN/ansat-platform" target="_blank" rel="noopener noreferrer">Explore the code <span aria-hidden="true">↗</span></a></div>
+            </div>
+            <div class="project-detail">
+              <div class="detail-row"><span>THE PROBLEM</span><p>Volunteer work was spread across disconnected lists, roles, files and production steps.</p></div>
+              <div class="detail-row"><span>WHAT I BUILT</span><p>Member authentication and permissions, public content tools, audio-production workflows and internal task features.</p></div>
+              <div class="detail-row"><span>TECHNOLOGIES</span><p>React 19, TypeScript, Vite, Firebase, Node.js, Express, Supabase/PostgreSQL.</p></div>
+              <div class="detail-row"><span>EVIDENCE</span><p><a href="https://github.com/MHSNMN/ansat-platform/blob/main/docs/VERIFICATION_2026-10-15.md" target="_blank" rel="noopener noreferrer">171 automated tests passed</a> in a documented snapshot on 15 October 2026, alongside type checking, linting and a production build. Results apply to that revision, not every future release.</p></div>
+            </div>
+          </div>
+          <div class="project-foot"><span>REACT</span><span>TYPESCRIPT</span><span>FIREBASE</span><span>NODE.JS</span><span>POSTGRESQL</span></div>
+        </article>
+        <div class="secondary-work"><div><span class="secondary-label">ALSO BUILT</span><h3>This website</h3><p>A lightweight, accessible portfolio made with semantic HTML, CSS and JavaScript.</p></div><a href="https://github.com/MHSNMN/developer-portfolio" target="_blank" rel="noopener noreferrer">Read the source <span aria-hidden="true">↗</span></a></div>
       </div>
-    </div>
-    <div class="case-footer">
-      <div><strong>~75</strong><small>activated platform accounts*</small></div>
-      <div><strong>~30</strong><small>volunteer applications*</small></div>
-      <div class="case-proof"><span>VERIFICATION</span><a href="https://github.com/MHSNMN/ansat-platform/blob/main/docs/VERIFICATION_2026-10-15.md" target="_blank" rel="noopener noreferrer">171 automated tests in a dated 15 Oct 2026 check ↗</a><small>*Initiative-reported historical snapshots, not live audited counts.</small></div>
-    </div>
-  </article>
-  <div class="source-row"><span>THIS PORTFOLIO</span><p>Semantic HTML, modern CSS, and a small amount of JavaScript.</p><a href="https://github.com/MHSNMN/developer-portfolio" target="_blank" rel="noopener noreferrer">View website source ↗</a></div>
-</section>
+    </section>
 
-<section class="section expertise" id="approach" aria-labelledby="approach-title"><div class="wrap">
-  <div class="section-heading"><div><p class="eyebrow">MY TOOLKIT</p><h2 id="approach-title">Practical skills.<br><em>Clear evidence.</em></h2></div><p>I focus on what I've used in projects, with an honest view of the skills I'm still developing.</p></div>
-  <div class="skills-grid">
-    <div class="skill"><span>A / INTERFACES</span><h3>Frontend</h3><p>React, TypeScript, JavaScript, HTML, CSS, responsive UI, Vite</p></div>
-    <div class="skill"><span>B / INTEGRATIONS</span><h3>Backend &amp; APIs</h3><p>Node.js, Express, REST APIs, authentication flows</p></div>
-    <div class="skill"><span>C / DATA</span><h3>Cloud &amp; storage</h3><p>Firebase, Firestore, Supabase/PostgreSQL, Google Drive API</p></div>
-    <div class="skill"><span>D / PRACTICE</span><h3>Engineering habits</h3><p>Git/GitHub, code reading, debugging, testing, deployment and code review — developing with guidance</p></div>
-  </div>
-</div></section>
+    <section class="about-section shell" id="about" aria-labelledby="about-title">
+      <div class="about-heading"><p class="eyebrow">ABOUT ME</p><h2 id="about-title">A practical approach<br>to building software.</h2></div>
+      <div class="about-body"><p>My experience comes primarily from building Ansat, an unpaid volunteer project with real operational needs. I work on interfaces and integrations, and I'm developing stronger independent debugging, testing and code review habits.</p><p>I'm transparent about my workflow: I use AI coding tools extensively, verify changes where I can, and value feedback from engineers with more experience.</p><div class="expertise"><div><span>FRONTEND</span><p>React · TypeScript · JavaScript · HTML · CSS</p></div><div><span>SERVICES &amp; DATA</span><p>Node.js · Express · Firebase · Firestore · Supabase</p></div><div><span>WORKING PRACTICE</span><p>GitHub · REST APIs · Testing · Debugging</p></div><div><span>LANGUAGES</span><p>Arabic (native) · English (B2, self-assessed)</p></div></div></div>
+    </section>
 
-<section class="section about wrap" id="about" aria-labelledby="about-title">
-  <div class="about-side"><p class="eyebrow">ABOUT</p><p>BASED IN IRAQ<br>AVAILABLE REMOTELY<br>UTC+3</p></div>
-  <div class="about-copy">
-    <h2 id="about-title">I care about the details between <em>an idea and a usable product.</em></h2>
-    <p>I'm a secondary-school student and junior developer. My main hands-on experience comes from founding the Ansat volunteer initiative and building its operations platform. This was volunteer work, not paid client employment.</p>
-    <p>I use AI-assisted coding tools extensively while improving my independent code reading, debugging and testing. I value scoped responsibilities, clear communication, and feedback from experienced engineers.</p>
-    <div class="about-facts"><div><span>FOCUS</span><strong>Frontend / full-stack development</strong></div><div><span>LANGUAGES</span><strong>Arabic native · English B2 (self-assessed)</strong></div><div><span>AVAILABILITY</span><strong>Full-time remote · Schedule by agreement</strong></div></div>
-  </div>
-</section>
+    <section class="contact-section" id="contact" aria-labelledby="contact-title"><div class="shell contact-inner"><div><p class="eyebrow">GET IN TOUCH</p><h2 id="contact-title">Have a role in mind?<br><span>Let's talk.</span></h2><p>I'm interested in remote frontend work with clear responsibilities, engineering feedback and a mutually agreed schedule.</p></div><div class="contact-links"><a class="email-link" data-email-link href="mailto:mhsnmn09@gmail.com">mhsnmn09@gmail.com <span aria-hidden="true">↗</span></a><a data-github-link href="https://github.com/MHSNMN" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a><a data-linkedin-link href="https://www.linkedin.com/in/mohsen-mohammed-ali-293705440/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a></div></div></section>
+  </main>
 
-<section class="contact-section wrap" id="contact" aria-labelledby="contact-title">
-  <div class="contact-panel"><p class="contact-kicker">LET'S BUILD SOMETHING USEFUL <span aria-hidden="true">✳</span></p><h2 id="contact-title">Have a role where I can <em>contribute?</em></h2><p>I'm interested in remote frontend opportunities with clear responsibilities, code review, and a working schedule we can coordinate together.</p>
-    <div class="contact-actions"><a class="button contact-primary" data-email-link href="mailto:mhsnmn09@gmail.com">Email me about a role ↗</a><a data-github-link href="https://github.com/MHSNMN">GitHub ↗</a><a data-linkedin-link href="https://www.linkedin.com/in/mohsen-mohammed-ali-293705440/">LinkedIn ↗</a></div>
-  </div>
-</section>
-</main>
-<footer class="wrap footer"><span>© <span id="year">2026</span> <span data-profile-name>Mohsen Mohammed Ali</span></span><span>Built with clarity. Based in Iraq.</span><a href="#top">Back to top ↑</a></footer>
-<script src="profile.js"></script><script src="script.js"></script>
+  <footer class="footer shell"><span>© <span id="year">2026</span> <span data-profile-name>Mohsen Mohammed Ali</span></span><span>Built with care in Iraq.</span><a href="#top">Back to top ↑</a></footer>
+  <script>
+const PROFILE = { name: 'Mohsen Mohammed Ali', email: 'mhsnmn09@gmail.com', github: 'https://github.com/MHSNMN', linkedin: 'https://www.linkedin.com/in/mohsen-mohammed-ali-293705440/' };
+
+document.querySelectorAll('[data-profile-name]').forEach(el => { el.textContent = PROFILE.name; });
+for (const [attribute, value] of [['data-email-link', 'mailto:' + PROFILE.email], ['data-github-link', PROFILE.github], ['data-linkedin-link', PROFILE.linkedin]]) {
+  document.querySelectorAll('[' + attribute + ']').forEach(el => { el.href = value; });
+}
+document.querySelector('#year').textContent = new Date().getFullYear();
+
+</script>
 </body>
 </html>
